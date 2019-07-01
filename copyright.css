@@ -1,0 +1,28 @@
+/* Copyright */
+
+#copyright {
+	background-color: #e2e2e2;
+}
+.copyright {
+	height: 65px;
+	background-color: #e2e2e2;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;	
+}
+.copyright p {
+	font-size: 12px;
+	line-height: 12px;
+	color: #919191;
+	font-family: "Georgia";
+}
+
+		/* Media Query Social */
+
+@media only screen and (max-width: 320px) {
+	.copyright p {
+		width: 111px;
+		margin: 0 auto;
+	}
+}

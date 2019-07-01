@@ -1,0 +1,156 @@
+/* Newsletter */
+footer {
+	background-color: #ededed;
+	padding-bottom: 12px !important;
+}
+
+.footer-caption {
+	max-width: 300px;
+}
+
+.footer-caption h3 {
+	color: #666;
+	font-size: 20px;
+	line-height: 24px;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.footer-caption p {
+	color: #989898;
+	font-size: 12px;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	margin-bottom: 12px;
+	line-height: 19px;
+}
+	/* Buttons */
+
+.email {
+	border:1px solid #d1d1d1;
+	font-size: 13px;
+	line-height: 16px;
+	color: #989898;
+	font-family: "Georgia";
+	text-align: center;
+    border-radius: 6px;
+    padding: 10px;
+    background-image: linear-gradient(0deg, #d9d9d9 0%, #f5f5f5 100%);
+    outline: none;
+}
+
+.sign-up {
+	border:1px solid #d1d1d1;
+	text-transform: uppercase;
+	font-size: 13px;
+	line-height: 17px;
+	color: #ff5d30;
+	font-family: "Georgia";
+	border-radius: 6px;
+	background-image: linear-gradient(0deg, #d9d9d9 0%, #f5f5f5 100%);
+	padding: 10px 22px;
+	margin-left: 15px;
+	outline: none;
+
+}
+
+	/* Social */
+
+.footer-caption ul {
+	display: inline-block;
+}
+.icons-1 {
+	margin-right: 45px;
+}
+
+ul li {
+	display: table;
+}
+footer ul > li {
+	margin-bottom: 20px;
+}
+
+ul li a {
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 12px;
+	line-height: 14px;
+	color: #989898;
+	font-family: "Georgia";
+}
+ul li a:hover,
+ul li a:active,
+ul li a:focus {
+	text-decoration: none;
+	cursor: pointer;
+	color: #989898;
+}
+
+ul li img {
+	/*width: 32px;
+	height: 32px;*/
+	/*border-radius: 50%;*/
+	background-color: #333333;
+	/*background-size: 32px 32px;*/
+	padding: 8px;
+	margin-right: 12px; 
+}
+
+
+		/* Media Query Social */
+
+@media only screen and (max-width: 976px) {
+	.row .footer-caption {
+		width: 300px;
+		margin: 0 auto;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.footer-caption {
+		text-align: center;
+	}
+	.footer-caption p {
+		text-align: center;
+	}
+}
+
+	/* Blog */
+
+.footer-caption-2 h4 {
+	font-size: 13px;
+	line-height: 16px;
+	color: #989898;
+	font-family: "Georgia";
+}
+.footer-caption-2  .posted {
+	font-size: 11px;
+	line-height: 13px;
+	color: #757575;
+	font-family: "Georgia";
+}
+
+.footer-caption-2 a {
+	font-size: 12px;
+	line-height: 14px;
+	color: #ff5d30;
+	font-family: "Georgia";
+	display: block;
+	text-align: right;
+	margin-bottom: 15px;
+}
+
+.footer-caption-2 a:hover,
+.footer-caption-2 a:active,
+.footer-caption-2 a:focus {
+	text-decoration: none;
+	cursor: pointer;
+	color: #ff5d30;
+}
+
+	/* The Latest From Twitter*/
+
+.footer-caption-3 a {
+	margin-top: 35px;
+}
+

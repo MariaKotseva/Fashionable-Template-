@@ -1,0 +1,102 @@
+#carousel{
+	margin-top: 160px;
+}
+
+#main-carousel .item {
+	height: 400px;
+	background: #333;
+	padding: 20px;
+	position: relative;
+} 
+
+#main-carousel .item1 {
+	background: url(../img/item1.jpg);
+}
+
+#main-carousel .item2 {
+	background: url(../img/item2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#main-carousel .item3 {
+	background: url(../img/item3.jpg);
+}
+
+#main-carousel .item4 {
+	background: url(../img/item4.jpg);
+}
+
+#main-carousel .item5 {
+	background: url(../img/item5.jpg);
+}
+
+#main-carousel .item .description {
+	position: absolute;
+	left: 20px;
+	right: 20px;
+	bottom: 20px;
+	width: 100%;
+	max-width: 400px;
+	background: rgba( 0, 0, 0, 0.3 );
+	padding: 27px;
+	font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+#main-carousel .item .description h2 {
+	font-size: 20px;
+	color: #c2c2c2;
+	margin-bottom: 24px;
+}
+
+#main-carousel .item .description p {
+	font-size: 13px;
+	color: #c1c1c1;
+	line-height: 21px;
+}
+
+#main-carousel .owl-dots {
+	position: absolute;
+	text-align: center;
+	right: 20px;
+	top: 20px;
+}
+
+#main-carousel .owl-dots button {
+	width: 10px;
+	height: 10px;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	margin-left: 5px;
+	display: inline-block;
+	outline: none;
+	background-color: #fff;
+}
+
+#main-carousel .owl-dots button.active {
+	background-color: transparent;
+}
+
+/* Mobile Styles */
+/* LG */
+@media only screen and (max-width: 1200px) {
+
+}
+
+/* Mid */
+@media only screen and (max-width: 992px) {
+
+}
+
+/* SM */
+@media only screen and (max-width: 768px) {
+
+}
+
+/* XM */
+@media only screen and (max-width: 500px) {
+	#main-carousel .item .description {
+	position: absolute;
+	width: auto;
+}
+}

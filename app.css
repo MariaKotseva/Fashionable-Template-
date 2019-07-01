@@ -1,0 +1,60 @@
+@import url('header.css');
+@import url('carousel.css');
+@import url('intro.css');
+@import url('gallery.css');
+@import url('footer.css');
+@import url('copyright.css');
+
+
+@import url('bootstrap.css');
+@import url('reset.css');
+@import url('owl.carousel.css');
+
+body {
+	background-color: #e2e2e2;
+}
+
+.wrap {
+	max-width: 960px;
+	margin: 0 auto;
+}
+.wrap > .container-fluid {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.container-fluid .row {
+	margin:0;
+}
+
+.row .col-md-4 {
+	padding: 0;
+}
+.col-lg-12 {
+	padding: 0;
+}
+.menu-shell {
+	padding: 0;
+}
+
+/* Mobile Styles */
+/* LG */
+@media only screen and (max-width: 1200px) {
+
+}
+
+/* Mid */
+@media only screen and (max-width: 992px) {
+
+}
+
+/* SM */
+@media only screen and (max-width: 768px) {
+
+}
+
+/* XM */
+@media only screen and (max-width: 500px) {
+
+}
